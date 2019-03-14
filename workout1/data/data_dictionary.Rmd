@@ -1,0 +1,28 @@
+---
+title: "data_dictionary"
+author: "Sharene Siddiqui"
+date: "3/10/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|    |  Variable Name      | Description                                                  |
+|:--:|:-------------------:|:------------------------------------------------------------ |
+| 1  | team_name           | Team identifier                                              |
+| 2  | game_date           | Date of the game                                             |
+| 3  | season              | year of game date                                            |
+| 4  | period              | which 12-minute increment out of 4                           |
+| 5  | minutes_remaining   | number of minutes remaining in period                        |
+| 6  | seconds_remaining   | number of seconds remaining in period                        |
+| 7  | shot_made_flag      | indicates whether a shot was made (y) or missed (n)          |
+| 8  | action_type         | type of basketball move use by players                       |
+| 9  | shot_type           | indicates whether a shot is a 2-point or a 3-point field goal|
+| 10 | shot_distance       | distance to the basket (measured in feet)                    |
+| 11 | opponent            | team against whom game was played                            |
+| 12 | x                   | x-coordinate where shot occured (measured in inches)         |  
+| 13 | y                   | y-coordinate where shot occured (measured in inches)         |
+
+
